@@ -57,3 +57,13 @@
 @keyframes rotate{
     100% {transform: rotate(-360deg);}
 }
+
+.ex-11-icon:hover{
+    animation: rotate2 2s linear;
+}
+
+@keyframes  rotate2{
+    90%{transform: rotate(300deg);}
+    100%{transform: rotate(-30deg);}
+}
+
