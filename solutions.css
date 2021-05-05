@@ -75,3 +75,12 @@
     50%{left: calc(100% - 60px)}
     100%{left: 10%}
 }
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: rotate4 2s linear;
+}
+
+@keyframes  rotate4{
+    50%{right: calc(100% - 60px) }
+    100%{right: 20%}
+}
