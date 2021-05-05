@@ -36,3 +36,9 @@
     filter: grayscale(0.6) sepia(0.5);
     transition: 2s;
 }
+
+.ex-8-img:hover{
+    filter: grayscale(0.4) sepia(0.5);
+    border-radius: 20px;
+    transition: 2s;
+}
