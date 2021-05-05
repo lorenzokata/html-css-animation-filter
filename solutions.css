@@ -67,3 +67,11 @@
     100%{transform: rotate(-30deg);}
 }
 
+.ex-12-button:hover .ex-12-top-white{
+    animation: rotate3 2s linear;
+}
+
+@keyframes  rotate3{
+    50%{left: calc(100% - 60px)}
+    100%{left: 10%}
+}
